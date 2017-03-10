@@ -1,0 +1,70 @@
+## Kirjautuminen
+
+Käyttäjä avaa järjestelmää web-selaimella. 
+Yleiskuvaus	Kuvataan lyhyesti mikä on käyttötapauksen tarkoitus/ tehtävä. 
+Esim. Käyttäjä lisää, muuttaa tai poistaa tietoja
+
+## Kuva
+
+![](https://www.google.fi/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjO0o2j08vSAhUBG5oKHRNrAMoQjRwIBw&url=http%3A%2F%2Fwww.publicdomainpictures.net%2Fview-image.php%3Fimage%3D154900%26picture%3D%26jazyk%3DRU&bvm=bv.149093890,d.bGs&psig=AFQjCNGaNhd-Fl2IjxyHLlX42ydrGH4iMQ&ust=1489225434667363)
+
+
+
+
+###Laatija Markus Jokinen.
+
+  * Päiväys / Versio	
+  10.3.2017/v.01
+  * Prosessi	
+  Avataan web-sivun erilaisilla selaimilla ja yritetään kirjautua järjestelmään
+ 
+	
+### Käyttäjäroolit	(Kuvataan käyttötapauksen käyttäjäroolit	Roolin oikeudet)
+
+  * rooli 1	opiskelijan käyttöoikeudet
+  * rooli 2	koulutusvastaavan käyttöoikeudet
+  * rooli 3	ohjaavan opettajan käyttöoikeudet
+  * rooli 4 vieraisen arvioijan käyttöoikeudet
+  * rooli 5 vieraisen kielitarkastuksen henkilöiden käyttöoikeudet
+  * rooli 6 vieraisen arvosteluasteikon henkilöiden käyttöoikeudet
+
+### Esitiedot/ehdot	
+
+  * Käsittelijä on kirjautunut järjestelmään omilla tunnuksillaan. Järjestelmä on hakenut käyttäjän tiedot tietokannasta ja avannut sivut käyttäjän roolin perustella.
+
+### Käyttötapauksen kuvaus
+
+  * 1 Käsittelijä syöttää väärän käyttäjätunnuksen ja oikean salasanan
+  * 2 Käsittelijä syöttää oikean käyttäjätunnuksen ja väärän salasanan
+  * 3 Käsittelijä tekee uuden käyttäjätunnuksen tilaus (erillaisilla roolilla)
+  * 4 Käsittelijä tekee uuden käyttäjätunnuksen tilaus ja syöttää väärän formaattiset tiedot (sähköpostiosoite, salasana, ei todellisia nimia tai sukunimia)
+  * 5 Käsittelijä haluaa saada unohdettu salasanan
+
+### Poikkeukset
+ 
+   * P1	
+
+Esim. P1 Järjestelmä ilmoittaa käyttäjälle, että tiedoissa on eroja. Järjestelmä näyttää käyttäjän syöttämät ja yleisrekisterijärjestelmästä saadut tiedot rinnakkain käsittelijän ruudulla.
+HUOM! Poikkeukset numeroidaan ja kukin sijoitetaan omaan ”lokeroon” ”, jotta niihin voidaan viitata tekstikuvauksesta.(Esim. P1) 
+Poikkeukseen kirjoitetaan vain poikkeus, ei tilannetta/käsittelysääntöä, joka johtaa poikkeukseen, ne on kirjoitettu tekstikuvaukseen tai tarvittaessa käsittelysääntöön. 
+
+Oletusarvoisesti käyttötapauksen suoritus keskeytyy poikkeukseen. Jos ei, siitä on mainittava.
+
+  * P2	
+	
+### Lopputulos	
+
+Kuvataan mikä on käyttötapauksen lopputulos. Esim. Asiakkaan tietoja on päivitetty. Tiedot on tallennettu tietokantaan. Asiakkaalle on lähetetty vahvistus tietojen päivittämisestä.
+Muut vaatimukset v1	Kuvataan mitä muita vaatimuksia käyttötapaukselle asetetaan toiminnallisten vaatimusten lisäksi.
+Esim. Asiakastietojen haku perustietorekisteristä ei saa kestää yli 25sek.
+v2	
+v3	
+
+### Käyttötiheys	Kuvataan, kuinka usein käyttötapausta suoritetaan..
+
+Esim. Muutoksia tehdään n.100/päivässä
+
+### Muuta	Kuvataan muita käyttötapaukseen liittyviä oleellisia tietoja, kuten avoimia asioita, viittauksia käytettäviin koodistoihin jne.
+
+
+
